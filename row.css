@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 20.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h6 {text-align: left;}
+.vl {
+    border-right: 2px solid white;
+    height: 150px;
+  }
+/* image  */
+  .row1 {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 10 30px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column1 {
+    -ms-flex: 30%; /* IE 10 */
+    flex: 70%;
+    padding: 1000 1000px;
+  }
+  
+  .column img {
+    margin-top: 50px;
+    vertical-align: right;
+  }
+
+  div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+img1 {
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
+.caption {
+    display: block;
+}
+
+
+ /* Style buttons */
+ .btn {
+    background-color: orangered; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 7px 10px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 50px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(197, 61, 61);
+  } 
+  p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: black;
+  }
+/* timer box*/
+  div.background {
+    background: url(../img/b.jpg) repeat;
+    border: 30px solid black;
+    width:40%;
+    height:100%;
+    
+  }
+  
+  div.transbox {
+    margin-top: 10% ;
+    margin: 10%;
+    background-color: #ffffff;
+    border: 10px solid white;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  div.transbox1 {
+    margin-top: 10% ;
+    margin: 10%;
+    background-color: #ffffff;
+    border: 10px solid white;
+    opacity: 10;
+    border-radius: 10px;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: lighter;
+    color: black;
+  }
+  /* Container holding the image and the text */
+.container1 {
+    position: relative;
+    text-align: left;
+    color: black;
+  }
+  .bottom-right {
+    position: absolute;
+    top: 500px;
+    right: 50px;
+  }
+  .top-right {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    text-align: left;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+  }
+  .bottom-right1 {
+    position: absolute;
+    top: 600px;
+    right: 200px;
+  }
+
+  /*brands*/
+
+
+
+ .img2 { 
+            opacity: 0.3; 
+          } 
+          
+ .img2:hover { 
+            opacity: 1; 
+          }
+   
+          div.item2 {
+            vertical-align: center;
+            display: inline-block;
+            text-align: left;
+            width: 450px;
+            
+        }
+        img3 {
+            width: 50px;
+            height: 50px;
+            background-color: grey;
+            top: 30;
+        }
+        .caption {
+            display: block;
+            top: 30;
+        }         
+
+        a {
+            margin: 20px;
+            -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+            transition: color 0.2s; /* For modern browsers */
+        }
+        a:hover {
+            color: orangered;
+        }
+        a1 {
+            margin: 20px;
+            -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+            transition: color 0.2s; /* For modern browsers */
+        }
+        a1:hover {
+            color: white;
+        }
